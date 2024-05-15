@@ -1,241 +1,96 @@
-body {
+/* Global Styles */
 
-    background-color: #C2D4C6;
-}
-header {
-    background-color: #0B7210;
-    padding: .20rem 0;
-}
-.logo{
-    height: 200px;
-    width: 200px;
-}
-nav {
-    position: absolute;
-    top: 100px;
-    right:0;
-}
-nav li {
-    display: inline;
-    margin: 0 0 0 .20rem;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-    font-size: 1.5em;
-    text-decoration: none;
-}
-nav a:hover {
-    color:  #79C44F;
-    text-decoration: underline;
-}
-
-
-.caixa {
-    width: 80vw;
-    position: relative;
-    margin: 0 auto
-}
-.fundo{
-        text-align: justify ;
-       padding: 2vw; 
-       margin: 2vw;
-}
-.itens {
-    width: 100vw;
-    margin: 0 auto;
-    padding: .20rem;}
-  
-.itens li {
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: .20rem 0;
+* {
     box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    background: linear-gradient(#79C44F, white);
-}
-.itens li:hover {
-    border: 3px solid #0B7210;
-    background: linear-gradient(white, #79C44F);
-}
-.itens li:active {
-    border-color: #79C44F;
-}
-.itens li:hover h2 {
-    font-size: 1.5em;
-}
-.imagemlateral{
-    height: 200px;
-    width: 200px;
-}
-footer{
-    color: white;
-    padding: 5vw;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* light gray background */
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #333; /* dark gray background */
+    color: #fff; /* white text */
+    padding: 20px;
     text-align: center;
-    background: #0B7210;}
-.imagemfinal{
-    position: relative;
-    right: 600px;
-    top: 25px;
-    height: 100px;
-    width: 100px;
-}
-/*page2*/
-
-.tituloinfografico{
-
-    text-align: center;
-}
-.listainfografico {
-background-color: #79C44F ;
-display: flexbox;
-width: 100vw;
-max-width: 600px;
-height: auto;
-border: black solid 2px;
-margin:auto;
-border-radius: 10px;
-}
-
-
-
-.linhainfografica {
-display: inline;
-width: inherit;
-height: inherit;
-margin: 10px;
-}
-
-.linhainfografica:hover {
-transform: scale(2);
-
-
-
-}
-.ladoesquerdo {
-display:inline-flex;
-
-}
-.imageminfografico {
-display:inline-flex;
-width: 150px;
-height: 150px;
-margin-right: 10px;
-vertical-align:top;
-}
-
-
-.tituloinfografico {
-    display:inline-block;
-    width: 400px;
-    height: 30px;
-    margin: 10px;
-    vertical-align: top;
-    font-size: 32px;
-
-}
-.paragrafoinfografico {
-
-    display:inline-block;
-    width: 369px;
-    height: 30px;
-    margin: 10px;
-    text-align: justify;
-}
-
-.boaspráticas {
-
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  /* Farm Section Styles */
+  
+  .farm-section {
     display: flex;
-    align-items: center;
-    flex-direction:column ;
-}
-
-.relato {
-    width: 100vw;
-   max-width: 560px;
-   height:56vw;
-   max-height: 315px;
-    margin: auto;
-    padding: 1vw;
-}
-
-/*page3*/
-
-.Sobreadinp {
-    background-color:#79C44F  ;
-    width: 100%px;
-    height: inherit;
-    border: black solid 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .farm-item {
+    width: 30%;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-}
-.Sobreadinp__texto {
-    display: inline-block;
-    width:45%;
-    height: inherit;
-    text-align: justify;
-    
-}
-.Sobreadinp__imagem {
-    display: inline-block;
-    height:auto;
-    
-}
-.imagem_adinp {
-    display: inline-block;
-    width: 45%;
-    height: 45%;
-    vertical-align: top;
-
-}
-.contato {
-     background-color:#79C44F  ;
-    width: 100%px;
-    height: inherit;
-    text-align: justify;
-    border: black solid 2px;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-}
-
-.telefone i::before {
-    content: "📞";
-}
-
-.email i::before {
-    content: "📧  ";
-}
-
-.comochegar {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-     background-color:#79C44F  ;
-    width: 100%px;
-    height: inherit;
-    text-align: justify;
-    border: black solid 2px;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-}
-
-.mapa{
+    padding: 20px;
+  }
+  
+  .farm-item img {
     width: 100%;
-}
-
-@media screen and (max-whidth: 480px) {
-
-    header {
-        background-color: red;
-    }
-    
-}
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .farm-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .farm-item p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* City Section Styles */
+  
+  .city-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .city-item {
+    width: 30%;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .city-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .city-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .city-item p {
+    font-size: 18px;
+    color: #666;
+  }
