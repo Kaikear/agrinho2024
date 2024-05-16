@@ -94,3 +94,9 @@
     font-size: 18px;
     color: #666;
   }
+
+  body{
+    background-image: url(images.jpg);
+    background-size: 90%;
+    font-family: "Open Sans";
+}
