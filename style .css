@@ -1,13 +1,13 @@
 body{
 
-    background-color: rgb(132, 135, 137);
+    background-color: rgb(94, 94, 94);
 
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(222, 168, 202);
+    background-color: rgb(98, 0, 255);
 }
 
 .cabecalho_imagem{
