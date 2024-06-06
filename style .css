@@ -5,6 +5,7 @@ background-color: rgba(129, 129, 129, 0.253);
 }
 
 header{
+    display: flex;
     background-color: rgb(77, 2, 148);
 }
 
