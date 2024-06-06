@@ -1,12 +1,12 @@
 body{
 
-background-color: rgba(129, 129, 129, 0.253);
+    background-color: rgb(132, 135, 137);
 
 }
 
 header{
     display: flex;
-    background-color: rgb(77, 2, 148);
+    background-color: rgb(222, 168, 202);
 }
 
 .cabecalho_imagem{
@@ -16,3 +16,4 @@ header{
     border-radius: 50%;
 
 }
+
