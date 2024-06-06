@@ -23,4 +23,5 @@ header{
 .cabecalho_menu-listaitem{
     display: inline;
     text-transform: uppercase;
+    margin-left: 20px;
 }
