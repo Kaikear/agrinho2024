@@ -9,6 +9,7 @@ header{
     justify-content: space-between;
     background-color: rgb(98, 0, 255);
     padding: 20px;
+    align-items: center;
 }
 
 .cabecalho_imagem{
