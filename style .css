@@ -8,6 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: rgb(98, 0, 255);
+    padding: 20px;
 }
 
 .cabecalho_imagem{
@@ -18,3 +19,8 @@ header{
 
 }
 
+
+.cabecalho_menu-listaitem{
+    display: inline;
+    text-transform: uppercase;
+}
