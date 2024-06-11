@@ -1,13 +1,13 @@
 body{
-     width: 100%;
-    background-color: rgb(94, 94, 94);
+    width: 100%;
+    background-color: rgb(132, 135, 137);
 
 }
 
 header{
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(98, 0, 255);
+justify-content: space-between;
+    background-color: rgb(42, 84, 219);
     padding: 20px;
     align-items: center;
 }
@@ -19,8 +19,6 @@ header{
     border-radius: 50%;
 
 }
-
-
 .cabecalho_menu-listaitem{
     display: inline;
     text-transform: uppercase;
@@ -40,27 +38,25 @@ header{
     padding: 20px;
 }
 
+
 .sobre_texto{
     text-align: justify;
     width: 400px;
 }
-
 .elementos{
-    display: flex;
+   display: flex;
 
 }
-
-
 
 .container{
-    width: 33vw;
-    border: 2px solid black;
-    padding: 20px;
-    text-align: center;
-
+width: 33vw;
+ border: 2px solid black;
+ padding: 20px;
+ text-align: center;
 }
-
 .elementos_container-imagem{
+
     width: 300px;
     height: 300px;
+
 }
