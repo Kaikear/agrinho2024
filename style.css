@@ -45,6 +45,12 @@ header{
     width: 400px;
 }
 
+.elemwntos{
+    display:flex
+    
+}
+
+
 
 .container{
     border: 2px solid black;
