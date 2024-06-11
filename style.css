@@ -53,6 +53,7 @@ header{
 
 
 .container{
+    width: 33vw;
     border: 2px solid black;
     padding: 20px;
     text-align: center;
