@@ -50,5 +50,10 @@ header{
     border: 2px solid black;
     padding: 20px;
     text-align: center;
-    
+
+}
+
+.elementos_container-imagem{
+    width: 300px;
+    height: 300px;
 }
